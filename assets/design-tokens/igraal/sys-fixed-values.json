@@ -1,0 +1,287 @@
+{
+  "color": {
+    "primary": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "$type": "color",
+      "$value": "#FD5A13"
+    },
+    "on-primary": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "primary-container": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "$type": "color",
+      "$value": "#FF8C39"
+    },
+    "on-primary-container": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "$type": "color",
+      "$value": "#FFF"
+    },
+    "primary-fixed": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#FFDBCF"
+    },
+    "on-primary-fixed": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#390C00"
+    },
+    "primary-fixed-dim": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#FFB59C"
+    },
+    "on-primary-fixed-variant": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#822700"
+    },
+    "secondary": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "$type": "color",
+      "$value": "#FBDB70"
+    },
+    "on-secondary": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "$type": "color",
+      "$value": "#3D2717"
+    },
+    "secondary-container": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "$type": "color",
+      "$value": "#F9EEC9"
+    },
+    "on-secondary-container": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "$type": "color",
+      "$value": "#3D2717"
+    },
+    "secondary-fixed": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#FFE07D"
+    },
+    "on-secondary-fixed": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#231B00"
+    },
+    "secondary-fixed-dim": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#E3C45C"
+    },
+    "on-secondary-fixed-variant": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#564500"
+    },
+    "tertiary": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "$type": "color",
+      "$value": "#EAC0FB"
+    },
+    "on-tertiary": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "$type": "color",
+      "$value": "#553264"
+    },
+    "tertiary-container": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "$type": "color",
+      "$value": "#F6E1FF"
+    },
+    "on-tertiary-container": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "$type": "color",
+      "$value": "#553264"
+    },
+    "tertiary-fixed": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#F6D9FF"
+    },
+    "on-tertiary-fixed": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#2C0C3C"
+    },
+    "tertiary-fixed-dim": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#E1B8F2"
+    },
+    "on-tertiary-fixed-variant": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#5A3A6B"
+    },
+    "error": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#A10006"
+    },
+    "on-error": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "error-container": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#E11C19"
+    },
+    "on-error-container": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "outline": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#81756D"
+    },
+    "outline-variant": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#D3C4BB"
+    },
+    "background": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#FFF8F6"
+    },
+    "on-background": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#271813"
+    },
+    "surface": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#FCF8F8"
+    },
+    "on-surface": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#1C1B1B"
+    },
+    "surface-variant": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#F0DFD6"
+    },
+    "on-surface-variant": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#4F453E"
+    },
+    "inverse-surface": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#313030"
+    },
+    "inverse-on-surface": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#F4F0EF"
+    },
+    "inverse-primary": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#FFB59C"
+    },
+    "shadow": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "surface-tint": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#AA3600"
+    },
+    "scrim": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "surface-container-highest": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#E5E2E1"
+    },
+    "surface-container-high": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#EBE7E7"
+    },
+    "surface-container": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#F1EDEC"
+    },
+    "surface-container-low": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#F6F3F2"
+    },
+    "surface-container-lowest": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "surface-bright": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#FCF8F8"
+    },
+    "surface-dim": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#DDD9D9"
+    }
+  }
+}

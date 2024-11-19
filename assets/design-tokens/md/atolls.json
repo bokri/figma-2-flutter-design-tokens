@@ -1,0 +1,80 @@
+{
+  "brand-color": {
+    "main-color": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "secondary-color": {
+      "parent": "M3 - Colors/Default Light Theme",
+      "description": "",
+      "$type": "color",
+      "$value": "#1f5195"
+    }
+  },
+  "border-width": {
+    "regular": {
+      "$type": "borderWidth",
+      "$value": "1px"
+    },
+    "large": {
+      "$type": "borderWidth",
+      "$value": "2px"
+    },
+    "larger": {
+      "$type": "borderWidth",
+      "$value": "4px"
+    },
+    "none": {
+      "$type": "borderWidth",
+      "$value": "0"
+    }
+  },
+  "spacing": {
+    "2XS": {
+      "$type": "spacing",
+      "$value": "4px"
+    },
+    "XS": {
+      "$type": "spacing",
+      "$value": "8px"
+    },
+    "S": {
+      "$type": "spacing",
+      "$value": "12px"
+    },
+    "M": {
+      "$type": "spacing",
+      "$value": "16px"
+    },
+    "L": {
+      "$type": "spacing",
+      "$value": "24px"
+    },
+    "XL": {
+      "$type": "spacing",
+      "$value": "32px"
+    },
+    "2XL": {
+      "$type": "spacing",
+      "$value": "48px"
+    },
+    "3XL": {
+      "$type": "spacing",
+      "$value": "64px"
+    },
+    "4XL": {
+      "$type": "spacing",
+      "$value": "80px"
+    },
+    "5XL": {
+      "$type": "spacing",
+      "$value": "96px"
+    },
+    "6XL": {
+      "$type": "spacing",
+      "$value": "120px"
+    }
+  }
+}

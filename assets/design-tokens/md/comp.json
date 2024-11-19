@@ -1,0 +1,40 @@
+{
+  "filled-button": {
+    "container": {
+      "color": {
+        "$type": "color",
+        "$value": "{color.primary}"
+      },
+      "elevation": {
+        "$type": "boxShadow",
+        "$value": "{elevation.level0}"
+      },
+      "height": {
+        "$type": "sizing",
+        "$value": "40px"
+      },
+      "shape": {
+        "$type": "borderRadius",
+        "$value": "{shape.corner.full}"
+      }
+    }
+  },
+  "favorite-button": {
+    "selected": {
+      "icon": {
+        "color": {
+          "$type": "color",
+          "$value": "{palette.error60}"
+        }
+      }
+    },
+    "unselected": {
+      "icon": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.outline}"
+        }
+      }
+    }
+  }
+}
