@@ -29,12 +29,12 @@ npm install
 To run the script, use the following command:
 
 ```sh
-node [index.js] [options]
+node index.js [options]
 ```
 
 ## Options
 
-- `--input=<path>`: Path to the input themes file (e.g. : path/to/input/$themes.json)
+- `--input=<path>`: Path to the input themes file (e.g. : 'path/to/input/$themes.json')
 - `--output=<path>`: Path to the output folder (default: generated/)
 - `--theme=<name>`: Filter themes by group name
 - `--help`: Display this help message
@@ -44,7 +44,7 @@ node [index.js] [options]
 To convert Figma design tokens to Flutter code, you can use the following command:
 
 ```sh
-node index.js --input=path/to/input/$themes.json --output=path/to/output --theme=themeName
+node index.js --input='path/to/input/$themes.json' --output=path/to/output --theme=themeName
 ```
 
 ## Contributing
