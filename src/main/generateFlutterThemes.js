@@ -19,6 +19,7 @@ import {
 import { loadThemes } from "../utils/fileHelpers.js";
 import { allTypes } from "../utils/constants.js";
 import flutterClassFormat from "../formats/flutterClassFormat.js";
+import path from "path";
 
 // Register Tokens Studio transforms with Style Dictionary
 register(StyleDictionary);
@@ -66,10 +67,9 @@ async function run() {
     return allTypes.map((type) => ({
       source: Object.entries(theme.selectedTokenSets)
         .filter(([, val]) => val !== "disabled")
-        .map(
-          ([tokenset]) =>
-            `${inputPath.replace(/\/[^\/]+$/, "")}/${tokenset}.json`,
-        ),
+        .map(([tokenset]) => {
+          return path.resolve(path.dirname(inputPath), `${tokenset}.json`);
+        }),
       log: {
         verbosity: "silent",
       },
@@ -99,10 +99,9 @@ async function run() {
     ...filteredThemes.map((theme) => ({
       source: Object.entries(theme.selectedTokenSets)
         .filter(([, val]) => val !== "disabled")
-        .map(
-          ([tokenset]) =>
-            `${inputPath.replace(/\/[^\/]+$/, "")}/${tokenset}.json`,
-        ),
+        .map(([tokenset]) => {
+          return path.resolve(path.dirname(inputPath), `${tokenset}.json`);
+        }),
       log: {
         verbosity: "silent",
       },
