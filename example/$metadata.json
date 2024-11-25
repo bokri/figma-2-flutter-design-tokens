@@ -1,0 +1,14 @@
+{
+  "tokenSetOrder": [
+    "md/ref",
+    "md/sys",
+    "md/atolls",
+    "md/comp",
+    "md/dark",
+    "igraal/ref",
+    "igraal/sys",
+    "igraal/atolls",
+    "igraal/sys-fixed-values",
+    "igraal/dark"
+  ]
+}

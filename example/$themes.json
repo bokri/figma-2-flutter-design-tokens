@@ -1,0 +1,57 @@
+[
+  {
+    "id": "c0383eb0870b6c29be38251a180431322672fc36",
+    "name": "Light",
+    "group": "Default Theme",
+    "selectedTokenSets": {
+      "md/ref": "source",
+      "md/sys": "enabled",
+      "md/comp": "enabled",
+      "md/atolls": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "6b841160c0bd64666dd3ec37718474b08c64132b",
+    "name": "Dark",
+    "group": "Default Theme",
+    "selectedTokenSets": {
+      "md/ref": "source",
+      "md/sys": "enabled",
+      "md/comp": "enabled",
+      "md/atolls": "enabled",
+      "md/dark": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "58f5d3a228eb01115a09332404ee7e013ad833b8",
+    "name": "Light",
+    "group": "iGraal",
+    "selectedTokenSets": {
+      "md/ref": "source",
+      "md/sys": "source",
+      "md/comp": "source",
+      "igraal/ref": "source",
+      "md/atolls": "source",
+      "igraal/sys": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "a2729a7517b897f0bc48bf3d8dbd2898731d6cb5",
+    "name": "Dark",
+    "group": "iGraal",
+    "selectedTokenSets": {
+      "md/ref": "source",
+      "md/sys": "source",
+      "md/comp": "source",
+      "igraal/ref": "source",
+      "md/atolls": "source",
+      "md/dark": "source",
+      "igraal/sys": "enabled",
+      "igraal/dark": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

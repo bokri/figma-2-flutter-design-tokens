@@ -1,0 +1,396 @@
+{
+  "color": {
+    "primary": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.primary80}"
+    },
+    "on-primary": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.primary20}"
+    },
+    "primary-container": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.primary30}"
+    },
+    "on-primary-container": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.primary90}"
+    },
+    "primary-fixed": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.primary90}"
+    },
+    "on-primary-fixed": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.primary10}"
+    },
+    "primary-fixed-dim": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.primary80}"
+    },
+    "on-primary-fixed-variant": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.primary30}"
+    },
+    "secondary": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.secondary80}"
+    },
+    "on-secondary": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.secondary20}"
+    },
+    "secondary-container": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.secondary30}"
+    },
+    "on-secondary-container": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.secondary90}"
+    },
+    "secondary-fixed": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.secondary90}"
+    },
+    "on-secondary-fixed": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.secondary10}"
+    },
+    "secondary-fixed-dim": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.secondary80}"
+    },
+    "on-secondary-fixed-variant": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.secondary30}"
+    },
+    "tertiary": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.tertiary80}"
+    },
+    "on-tertiary": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.tertiary20}"
+    },
+    "tertiary-container": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.tertiary30}"
+    },
+    "on-tertiary-container": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.tertiary90}"
+    },
+    "tertiary-fixed": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.tertiary90}"
+    },
+    "on-tertiary-fixed": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.tertiary10}"
+    },
+    "tertiary-fixed-dim": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.tertiary80}"
+    },
+    "on-tertiary-fixed-variant": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.tertiary30}"
+    },
+    "quaternary": {
+      "parent": "",
+      "$type": "color",
+      "$value": "{palette.quaternary80}"
+    },
+    "on-quaternary": {
+      "parent": "",
+      "$type": "color",
+      "$value": "{palette.quaternary20}"
+    },
+    "quaternary-container": {
+      "parent": "",
+      "$type": "color",
+      "$value": "{palette.quaternary30}"
+    },
+    "on-quaternary-container": {
+      "parent": "",
+      "$type": "color",
+      "$value": "{palette.quaternary90}"
+    },
+    "quaternary-fixed": {
+      "parent": "",
+      "$type": "color",
+      "$value": "{palette.quaternary90}"
+    },
+    "on-quaternary-fixed": {
+      "parent": "",
+      "$type": "color",
+      "$value": "{palette.quaternary10}"
+    },
+    "quaternary-fixed-dim": {
+      "parent": "",
+      "$type": "color",
+      "$value": "{palette.quaternary80}"
+    },
+    "on-quaternary-fixed-variant": {
+      "parent": "",
+      "$type": "color",
+      "$value": "{palette.quaternary30}"
+    },
+    "error": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.error80}"
+    },
+    "on-error": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.error20}"
+    },
+    "error-container": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.error30}"
+    },
+    "on-error-container": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.error90}"
+    },
+    "outline": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral-variant60}"
+    },
+    "background": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral6}"
+    },
+    "on-background": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral90}"
+    },
+    "surface": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral6}"
+    },
+    "on-surface": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral90}"
+    },
+    "surface-variant": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral-variant30}"
+    },
+    "on-surface-variant": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral-variant80}"
+    },
+    "inverse-surface": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral90}"
+    },
+    "inverse-on-surface": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral24}"
+    },
+    "inverse-primary": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.primary40}"
+    },
+    "shadow": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral0}"
+    },
+    "surface-tint": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.primary80}"
+    },
+    "outline-variant": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral-variant30}"
+    },
+    "scrim": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral0}"
+    },
+    "surface-container-highest": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral22}"
+    },
+    "surface-container-high": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral17}"
+    },
+    "surface-container": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral12}"
+    },
+    "surface-container-low": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral10}"
+    },
+    "surface-container-lowest": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral4}"
+    },
+    "surface-bright": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral24}"
+    },
+    "surface-dim": {
+      "parent": "M3 - Colors/Default Dark Theme",
+      "$type": "color",
+      "$value": "{palette.neutral6}"
+    }
+  },
+  "elevation": {
+    "level1": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "color": "{state.shadow.opacity-0-30}",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0"
+        },
+        {
+          "color": "{state.shadow.opacity-0-16}",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1",
+          "blur": "3",
+          "spread": "1"
+        }
+      ]
+    },
+    "level2": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "color": "{state.shadow.opacity-0-30}",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0"
+        },
+        {
+          "color": "{state.shadow.opacity-0-16}",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "2",
+          "blur": "6",
+          "spread": "2"
+        }
+      ]
+    },
+    "level3": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "color": "{state.shadow.opacity-0-30}",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1",
+          "blur": "3",
+          "spread": "0"
+        },
+        {
+          "color": "{state.shadow.opacity-0-16}",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "4",
+          "blur": "8",
+          "spread": "3"
+        }
+      ]
+    },
+    "level4": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "color": "{state.shadow.opacity-0-30}",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "2",
+          "blur": "3",
+          "spread": "0"
+        },
+        {
+          "color": "{state.shadow.opacity-0-16}",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "6",
+          "blur": "10",
+          "spread": "4"
+        }
+      ]
+    },
+    "level5": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "color": "{state.shadow.opacity-0-30}",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "4",
+          "blur": "4",
+          "spread": "0"
+        },
+        {
+          "color": "{state.shadow.opacity-0-16}",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "8",
+          "blur": "12",
+          "spread": "6"
+        }
+      ]
+    }
+  }
+}
