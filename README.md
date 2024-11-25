@@ -54,16 +54,3 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## License
 
 This project is licensed under the MIT License.
-
-### Explanation
-
-1. **Project Title and Description**: The title and a brief description of the project.
-2. **Table of Contents**: A table of contents for easy navigation.
-3. **Installation**: Instructions on how to install the dependencies.
-4. **Usage**: Instructions on how to run the script.
-5. **Options**: A list of available options for the script.
-6. **Example**: An example command to run the script.
-7. **Contributing**: Information on how to contribute to the project.
-8. **License**: Information about the project's license.
-
-This README file provides a comprehensive guide to using and contributing to the project.
