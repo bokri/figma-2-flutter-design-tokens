@@ -99,7 +99,10 @@ async function run() {
     ...filteredThemes.map((theme) => ({
       source: Object.entries(theme.selectedTokenSets)
         .filter(([, val]) => val !== "disabled")
-        .map(([tokenset]) => `assets/design-tokens/${tokenset}.json`),
+        .map(
+          ([tokenset]) =>
+            `${inputPath.replace(/\/[^\/]+$/, "")}/${tokenset}.json`,
+        ),
       log: {
         verbosity: "silent",
       },
