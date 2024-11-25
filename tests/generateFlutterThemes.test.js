@@ -2,7 +2,7 @@ const { promises } = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
 
-const inputPath = path.join(__dirname, "../example/$themes.json");  // Use the themes file from the example directory
+const inputPath = path.join(__dirname, "../example/$themes.json"); // Use the themes file from the example directory
 const outputPath = path.join(__dirname, "output");
 
 // Expected output files in generated directories
@@ -58,12 +58,16 @@ describe("Flutter Theme Generation", () => {
 
     // Check if the expected files are generated within the directories
     // Check that the files are generated within the directories
-    const lightFiles = await promises.readdir(path.join(outputPath, "default_light"));
-    const darkFiles = await promises.readdir(path.join(outputPath, "default_dark"));
+    const lightFiles = await promises.readdir(
+      path.join(outputPath, "default_light"),
+    );
+    const darkFiles = await promises.readdir(
+      path.join(outputPath, "default_dark"),
+    );
 
     expectedFiles.forEach((file) => {
-      expect(lightFiles).toContain(file);  // Check that the file exists in light directory
-      expect(darkFiles).toContain(file);   // Check that the file exists in dark directory
+      expect(lightFiles).toContain(file); // Check that the file exists in light directory
+      expect(darkFiles).toContain(file); // Check that the file exists in dark directory
     });
 
     // Additional Check: Ensure that each expected file is found in the respective directories
@@ -83,7 +87,7 @@ describe("Flutter Theme Generation", () => {
     // Check the content of one of the generated files
     const content = await promises.readFile(
       path.join(outputPath, "default_light", "values.g.dart"),
-      "utf-8"
+      "utf-8",
     );
     expect(content).toContain("class ThemeDefaultLightValues");
   });
