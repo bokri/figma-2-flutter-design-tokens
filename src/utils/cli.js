@@ -21,7 +21,7 @@ export function parseArguments() {
  */
 export function displayHelp() {
   console.log(`
-  Usage: node generateFlutterThemes.js [options]
+  Usage: node index.js [options]
   
   Options:
     --input=<path>   Path to the input themes file
