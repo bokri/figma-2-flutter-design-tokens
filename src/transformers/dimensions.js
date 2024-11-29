@@ -6,4 +6,4 @@
 import { removeUnit } from "../utils/utils.js";
 
 export const handleDimensionsAndSpacing = (prop, value) =>
-  `  static const ${prop.name} = ${removeUnit(value)};`;
+  `  static const double ${prop.name} = ${removeUnit(value)};`;
