@@ -3,21 +3,20 @@
  * It includes functions to convert color values from various formats (e.g., rgba, hex) to a specific format.
  */
 
-export const processColor = (value) => {
-  const rgbaMatch = value.match(
-    /rgba?\((\d+),\s*(\d+),\s*(\d+),?\s*([\d.]+)?\)/,
-  );
-  if (rgbaMatch) {
-    const [, r, g, b, a = 1] = rgbaMatch.map(Number);
-    return `Color.fromRGBO(${r}, ${g}, ${b}, ${a.toFixed(2)})`;
+export function processColor(value) {
+  const match = value.match(/rgba?\(\s*Color\(0x([A-Fa-f0-9]{8})\)\s*,\s*([\d.]+)%\s*\)/);
+  if (match) {
+    const [, hex, alphaPercent] = match;
+    const r = parseInt(hex.slice(2, 4), 16);
+    const g = parseInt(hex.slice(4, 6), 16);
+    const b = parseInt(hex.slice(6, 8), 16);
+    const alpha = (parseFloat(alphaPercent) / 100).toFixed(2);
+    return `Color.fromRGBO(${r}, ${g}, ${b}, ${alpha})`;
   }
+  return value;
+}
 
-  if (/^#/.test(value)) {
-    return `Color(0xFF${value.slice(1).toUpperCase()})`;
-  }
-
-  return value; // Return unchanged for unsupported formats
-};
-
-export const handleColors = (prop, value) =>
-  `  static const ${prop.name} = ${processColor(value)};`;
+export function handleColors(prop, value) {
+  value = processColor(value);
+  return `  static const ${prop.name} = ${value};`;
+}
